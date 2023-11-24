@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url('./Images/profilebg.png');
+    margin:0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 500px;
+    margin:  auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background-color:rgba(255, 255, 255, 0.571);
+    width:1500px;
+    height: 600px;
+    opacity:0.7;
+}
+img{
+    width:500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color:white;
+   
+    
+}
+select{
+    border-radius: 15px;
+}
+input{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=checkbox] {
+    margin-right: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+.container{
+    
+        position: relative;
+        max-width: 500px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(55px);
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 3rem;
+        width: 400px; 
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+  
+   label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px; 
+  } 
+
+  
+  
+   
+ button {
+    padding: 12px 20px; 
+    background-color:  #287b7b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    width: 140px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /
+  }
+  
+  button:hover {
+    background-color:  #287b7b;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+  } 
+  @media screen and (max-width: 768px) {
+    .container h1{
+    font-size: 36px;
+    }
+    .main {
+    padding: 20px;
+    flex-direction: column;
+    } 
+    .container{
+        padding: 50px;
+        width: 500px;
+        /* height: 100vh; */
+    }
+    img{
+        display:none;
+    }
+    input{
+        margin-top:15px;
+    }
+    h1{
+        margin-bottom:50px;
+    }
+
+}
