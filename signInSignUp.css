@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('/loginpagebg.png');
+    background-image: url('./loginpagebg.png');
 }
 .matter {
      justify-content: left;
