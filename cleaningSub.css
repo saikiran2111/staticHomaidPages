@@ -3,7 +3,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url(images/sbg.jpg);
+  background-image: url(/sbg.jpg);
 }
 .main-container{
   height: 100vh;
@@ -118,7 +118,7 @@ button {
 }
 
 .media-card3 {
-  background: url(images/clean3.png) center/cover;
+  background: url(/clean3.png) center/cover;
   height: 200px;
   width: 100%;
 }
