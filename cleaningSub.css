@@ -75,19 +75,19 @@ body {
 }
 
 .media-card1 {
-  background: url(Images/clean2.png) center/cover;
+  background: url(./clean2.png) center/cover;
   height: 200px;
   width: 100%;
 }
 
 .media-card2 {
-  background: url(Images/clean1.png) center/cover;
+  background: url(./clean1.png) center/cover;
   height: 200px;
   width: 100%;
 }
 
 .media-card3 {
-  background: url(Images/clean3.png) center/cover;
+  background: url(./clean3.png) center/cover;
   height: 200px;
   width: 100%;
 }
